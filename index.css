@@ -1,0 +1,102 @@
+body {
+    font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 550px;
+    width: 550px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#green {
+    color: #4ADF86;
+    margin: -35px 0 0 0;
+}
+
+h3 {
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: lightgray;
+    margin: 0 0 40px 0;
+    line-height: 28px;
+    letter-spacing: 3%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: lightgrey;
+    margin: 0 10px 0 30px;
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    background-color: #4ADF86;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+button:hover {
+    border: 2px solid #047857;
+}
+
+select {
+    width: 60px;
+    height: 30px;
+    background-color: #273549;
+    color: lightgray;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+span {
+    width: 440px;
+    height: 1px;
+    margin: 30px 0;
+    background-color: #2F3E53;
+}
+
+#functionality {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+#passwords {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    width: 100%;
+}
+
+#password-el1,
+#password-el2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 39px;
+    background-color: #273549;
+    color: #4ADF86;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1%;
+    border-radius: 6px;
+    margin: 0;
+    cursor: text;
+}
