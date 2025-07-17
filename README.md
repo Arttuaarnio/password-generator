@@ -2,6 +2,8 @@
 
 A simple website that generates two random passwords at once
 
+Hosted on <a href="https://password-generator-nine-mu-31.vercel.app/" target="blank" rel="noopener noreferrer">Vercel</a>
+
 ![UI screenshot](screenshot.png)
 
 ## Features
@@ -11,7 +13,7 @@ A simple website that generates two random passwords at once
 
 ## How to Use
 
-1. Open `index.html` in a browser
+1. Open `index.html` in a browser or check <a href="https://password-generator-nine-mu-31.vercel.app/" target="blank" rel="noopener noreferrer">HERE</a>
 2. Pick a length from the dropdown
 3. Click the **Generate passwords** button
 4. Copy the password you want to use
